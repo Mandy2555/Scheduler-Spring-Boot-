@@ -1,0 +1,18 @@
+spring.application.name=MyCrudApplications
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=EmailScheduler
+spring.servlet.multipart.enabled=true
+spring.servlet.multipart.max-file-size=2MB
+spring.servlet.multipart.max-request-size=2MB
+spring.quartz.threadPool.threadCount=5
+server.port= 8086	
+spring.jackson.time-zone=Asia/Kolkata
+									
+##Email Properties 
+spring.mail.host=smtp.example.com
+spring.mail.port=587
+spring.mail.username= 25603mandeep.2020@example.com
+spring.mail.password= 
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
